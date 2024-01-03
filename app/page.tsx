@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className="column-container">
         <div className="column">
-          <div>Case 1: This image will be missing at .next/static/media</div>
+          <div>Case 1: This image will be missing at .next/static/media - Using Image tag</div>
           <Image
             src="/img/test-img.png"
             alt="test image"
@@ -23,7 +23,7 @@ export default function Home() {
         <div className="column">
           <div>
             Case 3: This image will load but will NOT be Available at
-            .next/static/media
+            .next/static/media - using class from global.css 
           </div>
           <div className="sample-img2"></div>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
         <div className="column">
           <div>
             Case 4: This image will load and also will be Available at
-            .next/static/media
+            .next/static/media - using class from public folder
           </div>
           <div className="sample-img3"></div>
         </div>
