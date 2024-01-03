@@ -105,3 +105,16 @@ a {
     color-scheme: dark;
   }
 }
+
+.sample-img1 {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.sample-img2 {
+  width: 200px;
+  height: 200px;
+  background-image: url('/img/sample-img2.jpg');
+  background-size: cover;
+}

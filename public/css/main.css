@@ -1,0 +1,17 @@
+.sample-img3 {
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/sample-img3.jpg');
+    background-size: cover;
+  }
+
+  .column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .column {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Optional margin between columns */
+  }
